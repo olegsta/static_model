@@ -1,0 +1,18 @@
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - 'spec/static_model/**/*'
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+# Style/StringLiteralsInInterpolation:
+#   Enabled: false
+
+Layout/LineLength:
+  Max: 120
